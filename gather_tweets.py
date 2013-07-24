@@ -6,7 +6,7 @@
   6
       # a file called companies.txt contains a list of companies to search Twitter for
   7   file = open("companies.txt")
-  8   csv= Datasheet()
+  8   csv = Datasheet()
   9
       # traverse companies.txt and retrieve tweets and assign polarity to them 
  10   for line in file:
